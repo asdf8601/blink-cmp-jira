@@ -15,7 +15,7 @@ Install using your preferred package manager:
 ```lua
 -- lazy.nvim
 {
-  'your-username/blink-cmp-jira',
+  'asdf8601/blink-cmp-jira',
   dependencies = {
     'Saghen/blink.cmp'
   }
