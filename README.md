@@ -33,7 +33,7 @@ require('blink.cmp').setup({
     providers = {
       jira = {
         name = 'blink-cmp-jira',
-        module = 'blink-jira'
+        module = 'blink-cmp-jira'
       }
     }
   }
@@ -52,7 +52,7 @@ require('blink.cmp').setup({
     providers = {
       jira = {
         name = 'blink-cmp-jira',
-        module = 'blink-jira',
+        module = 'blink-cmp-jira',
         opts = {
           jira_project = 'PROJ',                    -- Filter by project key
           jira_status = {'In Progress', 'To Do'},   -- Filter by status (array)
